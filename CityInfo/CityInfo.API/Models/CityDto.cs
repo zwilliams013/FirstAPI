@@ -17,8 +17,7 @@ namespace CityInfo.API.Models
                 return PointsOfInterest.Count;
             }
         }
-        public ICollection<PointsOfInterestDto> PointOfInterest { get; set; }
-        = new List<PointsOfInterestDto>();
-
+        public ICollection<PointOfInterestDto> PointsOfInterest { get; set; }
+        = new List<PointOfInterestDto>();
     }
 }
